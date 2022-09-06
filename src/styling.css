@@ -75,7 +75,7 @@ color: #535353;
  .last{
   display: flex;
   height:100%;
-  width:372px;
+  width:408px;
   justify-content: space-between;
  }
  .ul2{
@@ -90,9 +90,10 @@ color: #121213;
 
 padding: 0px 24px;
 gap: 8px;
+color: white;
+font-weight: 600;
 
-
-width: 372px;
+width: 408px;
 height: 48px;
 left: calc(50% - 372px/2 + 505px);
 bottom: 40px;
@@ -107,4 +108,12 @@ border: 2px solid #207EFC;
 
 box-shadow: 0px 0px 1px rgba(48, 49, 51, 0.05), 0px 8px 16px rgba(48, 49, 51, 0.1);
 border-radius: 12px;
+ }
+ .second{
+    display: flex;
+    justify-content: space-between;
+ }
+ .lastpro{
+    padding: 3px;
+    border-bottom: 1px #EFEFEF solid;
  }
