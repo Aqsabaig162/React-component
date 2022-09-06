@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-import SideComponent from './SideComponent'
+import { FontStyles } from './styles';
+import Component1 from './Component1';  
+import SideComponent from './SideComponent';
+import NewComponent from './NewComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <SideComponent />
-   
+  <NewComponent />
   </React.StrictMode>
 );
 

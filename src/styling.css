@@ -1,6 +1,7 @@
 .first{
 display: flex;
 justify-content: space-between;
+height: 70px;
 }
 .com1 span{
 padding-bottom: 20px;
@@ -9,6 +10,22 @@ font-size: 14px;
 line-height: 150%;
 color: #B8B7B7;
 
+}
+.pad{
+    padding: 30px;
+    border-bottom: 1px #EFEFEF solid;
+}
+.btn11{
+    width: 113px;
+height: 48px;
+}
+.btn22{
+    width: 113px;
+    height: 48px;
+}
+.btnclass{
+    display: flex;
+    justify-content: space-between;
 }
 .com1 p{
     padding-top: 0;
@@ -23,6 +40,27 @@ line-height: 150%;
 color: #808191;
 
 }
+
+.pnewcom{
+    
+    font-size: 14px;
+    
+    text-align: center;
+    
+    color: #207EFC;
+    font-weight: 400;
+}
+
+.newcomsec{
+    display: flex;
+    justify-content: space-between;
+}
+.bluearrow{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -41,7 +79,33 @@ color: #808191;
  .mar{
     padding-left: 10px;
    display: block;
-    
+    }
+.productt{
+width: 182px;
+height: 52px;
+
+
+/* Background grey */
+
+background: #F1F1F1;
+border-radius: 10px;
+}
+.prod1{
+    display: flex;
+   
+}
+.prod2{
+    display: flex;
+    padding-left: 291px;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+ a{
+ padding-left: 10px;
  }
  .products span{
     font-family: 'Inter';

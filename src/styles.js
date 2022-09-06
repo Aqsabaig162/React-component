@@ -87,10 +87,9 @@ export const ListTitle = styled(ShippingStatus)`
 export const Container = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
-  height: 963px;
-  width: 431px;
-  border: 1px solid black;
-  padding: 20px;
+  width: 35%;
+  paddingLeft:'10px'; 
+  
 `;
 
 export const Header = styled.h3`
