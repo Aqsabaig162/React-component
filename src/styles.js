@@ -1,13 +1,14 @@
-import { createGlobalStyle } from "styled-components";
-import styled from "styled-components";
+import styled, { createGlobalStyle, css } from "styled-components";
+import { Input, DatePicker } from 'antd';
 import Sans from "./fonts/DMSans-Regular.ttf";
-export const FontStyles = createGlobalStyle`
 
-@font-face {
-  font-family: 'Sans-Regular';
-  src: url(${Sans}) format('ttf'),
-}
+export const FontStyles = createGlobalStyle`
+  @font-face {
+    font-family: 'Sans-Regular';
+    src: url(${Sans}) format('ttf'),
+  }
 `;
+
 export const OrderContainer = styled.div`
   // background-color: #F9F9F9;
 
@@ -85,11 +86,14 @@ export const ListTitle = styled(ShippingStatus)`
 `;
 
 export const Container = styled.div`
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
-  width: 35%;
-  paddingLeft:'10px'; 
-  
+ 
+margin: auto;
+max-width: 100%;
+max-height: 100%;
+justify-content: center;
+align-items:center;
+border: 1px solid black;
+background: linear-gradient(0deg, rgb(209, 157, 245), rgba(238, 103, 191 , 0.3));
 `;
 
 export const Header = styled.h3`
@@ -111,4 +115,18 @@ export const Product = styled.div`
 `;
 export const Footer = styled.div`
   padding-top: 10px;
+`;
+
+
+const sharedStyles = css`
+ 
+  
+`;
+
+export const InputStyled = styled(Input)`
+  ${sharedStyles}
+`;
+
+export const DatePickerStyled = styled(DatePicker)`
+  ${sharedStyles}
 `;
