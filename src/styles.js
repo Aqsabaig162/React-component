@@ -2,6 +2,8 @@ import styled, { createGlobalStyle, css } from "styled-components";
 import { Input, DatePicker } from 'antd';
 import Sans from "./fonts/DMSans-Regular.ttf";
 
+
+
 export const FontStyles = createGlobalStyle`
   @font-face {
     font-family: 'Sans-Regular';
@@ -89,7 +91,7 @@ export const Container = styled.div`
  
 margin: auto;
 max-width: 100%;
-max-height: 100%;
+height: 100%;
 justify-content: center;
 align-items:center;
 border: 1px solid black;
